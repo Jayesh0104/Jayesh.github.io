@@ -50,6 +50,7 @@ body {
   .cont p{
       font-size: 15px;
       color: #f4f4f4;
+      padding:0px 30px;
   }
   .main-overview{
       display: flex;
@@ -185,6 +186,7 @@ body {
       width: 280px;
       height: 330px;
       right: 0px;
+      padding: 20px;
     }
     .project-dashboard{
       width: 600px;
@@ -202,10 +204,12 @@ body {
     .project-overview{
       width: 220px;
       height: 280px;
+      padding: 20px;
     }
     .desc_card,.project_card{
       flex-wrap: wrap;
       justify-content: center;
+      margin: 20px 0;
     }
   }
 
@@ -220,6 +224,7 @@ body {
       transform: translateX(0%);
       width: 230px;
       height: 260px;
+      padding: 20px;
     }
     .project-outer{
       position: relative;
@@ -245,6 +250,7 @@ body {
   @media screen and (max-width:565px){
     .project-overview{
       margin-bottom: 10px;
+      padding: 20px;
     }
     
     .project-dashboard{
@@ -255,7 +261,7 @@ body {
       height: 280px;
     }
     .project-overview-title{
-      margin-left: 40px;
+      padding-left: 80px;
     }
     .project-overview{
       display: flex;
@@ -274,5 +280,6 @@ body {
     .project-dashboard{
       max-width: 300px;
       min-width: 100px;
+      padding: 20px;
     }
   }
